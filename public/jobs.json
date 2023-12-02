@@ -1,0 +1,193 @@
+[
+  {
+    "id": 1,
+    "title": "Software Engineer",
+    "type": "Full-time",
+    "company": "TechCo Innovations",
+    "location": "San Francisco, CA",
+    "salary": "$120,000 - $150,000",
+    "description": "Join our dynamic team to develop cutting-edge software solutions.",
+    "responsibilities": [
+      "Design and implement software applications",
+      "Collaborate with cross-functional teams",
+      "Conduct code reviews and troubleshoot issues"
+    ],
+    "education": "Bachelor's degree in Computer Science or related field",
+    "experience": "2+ years of software development",
+    "img": "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?size=626&ext=jpg&ga=GA1.1.385506669.1696431992&semt=sph",
+    "email": "bartlettmcneil@lunchpad.com",
+    "phone": "+1 (999) 501-2486"
+  },
+  {
+    "id": 2,
+    "title": "Frontend Developer",
+    "type": "Contract",
+    "company": "WebTech Solutions",
+    "location": "New York, NY",
+    "salary": "$70 - $90 per hour",
+    "description": "Build responsive and intuitive user interfaces for web applications.",
+    "responsibilities": [
+      "Implement and maintain frontend code",
+      "Collaborate with UX/UI designers",
+      "Optimize applications for maximum speed and scalability"
+    ],
+    "education": "Bachelor's degree in Computer Science or equivalent",
+    "experience": "3+ years of frontend development",
+    "img": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?size=626&ext=jpg&ga=GA1.1.385506669.1696431992&semt=sph",
+    "email": "bartlettmcneil@lunchpad.com",
+    "phone": "+1 (843) 454-3883"
+  },
+  {
+    "id": 3,
+    "title": "Data Scientist",
+    "type": "Full-time",
+    "company": "Data Insights Corp",
+    "location": "Seattle, WA",
+    "salary": "$110,000 - $130,000",
+    "description": "Utilize data analytics to drive business insights and decision-making.",
+    "responsibilities": [
+      "Develop and implement machine learning models",
+      "Analyze large datasets to extract meaningful patterns",
+      "Collaborate with cross-functional teams to interpret data-driven findings"
+    ],
+    "education": "Master's degree in Data Science or related field",
+    "experience": "2+ years of data science experience",
+    "img": "https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?size=626&ext=jpg&ga=GA1.1.385506669.1696431992&semt=sph",
+
+    "email": "bartlettmcneil@lunchpad.com",
+    "phone": "+1 (911) 497-3317"
+  },
+  {
+    "id": 4,
+    "title": "Mobile App Developer",
+    "type": "Full-time",
+    "company": "AppCraft Studios",
+    "location": "Austin, TX",
+    "salary": "$90,000 - $110,000",
+    "description": "Create innovative and user-friendly mobile applications for iOS and Android.",
+    "responsibilities": [
+      "Design and develop mobile applications",
+      "Collaborate with cross-functional teams on app features",
+      "Optimize app performance for a seamless user experience"
+    ],
+    "education": "Bachelor's degree in Computer Science or related field",
+    "experience": "3+ years of mobile app development",
+    "img": "https://img.freepik.com/premium-photo/young-african-it-professional-developer-wearing-jeans-shirt-cheeking-cyber-code-concentrate-laptop-screen-display-data-application-website-create-innovative-updated-version-tastemaker_31965-263071.jpg?size=626&ext=jpg&ga=GA1.1.385506669.1696431992&semt=sph",
+    "email": "bartlettmcneil@lunchpad.com",
+    "phone": "+1 (842) 442-2240"
+  },
+  {
+    "id": 5,
+    "title": "DevOps Engineer",
+    "type": "Full-time",
+    "company": "CloudOps Solutions",
+    "location": "Denver, CO",
+    "salary": "$100,000 - $120,000",
+    "description": "Manage and enhance the continuous integration and deployment pipeline.",
+    "responsibilities": [
+      "Implement and maintain CI/CD pipelines",
+      "Collaborate with development and operations teams",
+      "Automate and optimize infrastructure and deployment processes"
+    ],
+    "education": "Bachelor's degree in Computer Science or related field",
+    "experience": "2+ years of DevOps experience",
+    "img": "https://img.freepik.com/free-vector/programmer-working-flat-style_52683-15041.jpg?size=626&ext=jpg&ga=GA1.1.385506669.1696431992&semt=sph",
+    "email": "bartlettmcneil@lunchpad.com",
+    "phone": "+1 (834) 520-3411"
+  },
+  {
+    "id": 6,
+    "title": "Backend Developer",
+    "type": "Remote",
+    "company": "CodeCrafters Ltd.",
+    "location": "Chicago, IL",
+    "salary": "$110,000 - $130,000",
+    "description": "Build scalable and robust server-side applications and APIs.",
+    "responsibilities": [
+      "Design and develop backend systems",
+      "Collaborate with frontend and mobile app developers",
+      "Optimize server-side code for performance and scalability"
+    ],
+    "education": "Bachelor's degree in Computer Science or equivalent",
+    "experience": "3+ years of backend development",
+    "img": "https://img.freepik.com/free-photo/html-css-collage-concept_23-2150061955.jpg?size=626&ext=jpg&ga=GA1.1.385506669.1696431992&semt=sph",
+    "email": "bartlettmcneil@lunchpad.com",
+    "phone": "+1 (882) 466-3547"
+  },
+  {
+    "id": 7,
+    "title": "Cybersecurity Analyst",
+    "type": "Full-time",
+    "company": "SecureNet Solutions",
+    "location": "Washington, D.C.",
+    "salary": "$90,000 - $110,000",
+    "description": "Protect and secure organizational assets from cyber threats.",
+    "responsibilities": [
+      "Monitor and analyze security alerts",
+      "Implement and maintain security measures",
+      "Conduct vulnerability assessments and penetration testing"
+    ],
+    "education": "Bachelor's degree in Cybersecurity or related field",
+    "experience": "2+ years of cybersecurity experience",
+    "img": "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?size=626&ext=jpg&ga=GA1.1.385506669.1696431992&semt=sph",
+    "email": "bartlettmcneil@lunchpad.com",
+    "phone": "+1 (878) 549-2590"
+  },
+  {
+    "id": 8,
+    "title": "Full Stack Developer",
+    "type": "Remote",
+    "company": "TechFusion Solutions",
+    "location": "Los Angeles, CA",
+    "salary": "$120,000 - $140,000",
+    "description": "Contribute to both frontend and backend development in a dynamic environment.",
+    "responsibilities": [
+      "Develop and maintain both client and server-side applications",
+      "Collaborate with UX/UI designers and other team members",
+      "Troubleshoot, debug, and optimize code as needed"
+    ],
+    "education": "Bachelor's degree in Computer Science or equivalent",
+    "experience": "3+ years of full-stack development",
+    "img": "https://img.freepik.com/free-photo/coding-man_1098-18084.jpg?size=626&ext=jpg&ga=GA1.1.385506669.1696431992&semt=sph",
+    "email": "bartlettmcneil@lunchpad.com",
+    "phone": "+1 (962) 539-2455"
+  },
+  {
+    "id": 9,
+    "title": "AI/ML Engineer",
+    "type": "Full-time",
+    "company": "IntelliTech Labs",
+    "location": "Boston, MA",
+    "salary": "$130,000 - $150,000",
+    "description": "Develop and deploy machine learning models for business applications.",
+    "responsibilities": [
+      "Design and implement machine learning algorithms",
+      "Collaborate with data scientists and domain experts",
+      "Integrate machine learning models into production systems"
+    ],
+    "education": "Master's degree in Computer Science or related field",
+    "experience": "3+ years of AI/ML development",
+    "img": "https://img.freepik.com/free-vector/code-typing-concept-illustration_114360-3581.jpg?size=626&ext=jpg&ga=GA1.1.385506669.1696431992&semt=sph",
+    "email": "bartlettmcneil@lunchpad.com",
+    "phone": "+1 (802) 515-2688"
+  },
+  {
+    "id": 10,
+    "title": "Blockchain Developer",
+    "type": "Remote",
+    "company": "CryptoTech Innovations",
+    "location": "San Jose, CA",
+    "salary": "$120,000 - $140,000",
+    "description": "Contribute to the development of blockchain-based applications and solutions.",
+    "responsibilities": [
+      "Design and implement blockchain protocols and smart contracts",
+      "Collaborate with cross-functional teams on blockchain projects",
+      "Stay updated on the latest blockchain technologies and trends"
+    ],
+    "education": "Bachelor's degree in Computer Science or related field",
+    "experience": "2+ years of blockchain development",
+    "img": "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?size=626&ext=jpg&ga=GA1.1.385506669.1696431992&semt=sph",
+    "email": "bartlettmcneil@lunchpad.com",
+    "phone": "+1 (888) 418-2345"
+  }
+]
