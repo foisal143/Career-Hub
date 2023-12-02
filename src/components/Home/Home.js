@@ -2,7 +2,7 @@ import React from 'react';
 import person from './person.png';
 import JobCategorys from '../JobCategorys/JobCategorys';
 import FeaturedJob from '../FeaturedJob/FeaturedJob';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 const Home = () => {
   const { jobs, addedData } = useLoaderData();
   console.log(jobs);
@@ -19,7 +19,9 @@ const Home = () => {
             need. Its your future. Come find it. Manage all your job application
             from start to finish.
           </p>
-          <button className="btn-primary mt-5">Get Started</button>
+          <Link to="/applied">
+            <button className="btn-primary my-5">Get Started</button>
+          </Link>
         </div>
         <div className="2/5">
           <img className="w-full lg:h-[500px] mx-auto" src={person} alt="" />

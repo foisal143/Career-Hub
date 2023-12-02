@@ -11,7 +11,7 @@ const Footer = () => {
         </p>
         <div></div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex md:justify-center">
         <div>
           <h3 className="text-xl font-semibold">Company</h3>
           <ul className="text-gray-500 my-5">
@@ -22,7 +22,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex md:justify-center">
         <div>
           <h3 className="text-xl font-semibold">Product</h3>
           <ul className="text-gray-500 my-5">
@@ -33,7 +33,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex md:justify-center">
         <div>
           <h3 className="text-xl font-semibold">Support</h3>
           <ul className="text-gray-500 my-5">
@@ -44,7 +44,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex md:justify-center">
         <div>
           <h3 className="text-xl font-semibold">Contact</h3>
           <ul className="text-gray-500 my-5">

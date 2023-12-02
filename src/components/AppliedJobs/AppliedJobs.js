@@ -50,7 +50,7 @@ const AppliedJobs = () => {
         {addedJob.length === 0 && (
           <p className="text-center text-4xl">Not Found</p>
         )}
-        <div className="w-3/4 mx-auto">
+        <div className="lg:w-3/4 mx-auto">
           {jobs.map(job => (
             <AppliedJob job={job} key={job.id}></AppliedJob>
           ))}

@@ -50,11 +50,15 @@ const Navbar = () => {
           Blog
         </NavLink>
         <div className="lg:hidden">
-          <button className="btn-primary">Start Appling</button>
+          <Link to="/applied">
+            <button className="btn-primary">Start Appling</button>
+          </Link>
         </div>
       </div>
       <div className="hidden lg:block">
-        <button className="btn-primary">Start Appling</button>
+        <Link to="/applied">
+          <button className="btn-primary">Start Appling</button>
+        </Link>
       </div>
     </nav>
   );

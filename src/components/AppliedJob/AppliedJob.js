@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 const AppliedJob = ({ job }) => {
   const { id, type, title, salary, location, img, company } = job;
   return (
-    <div className="flex justify-between my-5 items-center gap-10">
-      <img className="w-36 h-36" src={img} alt="" />
-      <div className="flex-grow flex justify-between">
+    <div className="flex flex-col md:flex-row justify-between my-5 items-center gap-10">
+      <img className="md:w-36 w-10/12 mx-atuo h-80 md:h-36" src={img} alt="" />
+      <div className="md:flex-grow flex flex-col md:flex-row justify-between">
         <div className="flex-grow">
           <h3>{title}</h3>
           <p>{company}</p>
