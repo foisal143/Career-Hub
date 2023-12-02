@@ -2,7 +2,10 @@ import React from 'react';
 import person from './person.png';
 import JobCategorys from '../JobCategorys/JobCategorys';
 import FeaturedJob from '../FeaturedJob/FeaturedJob';
+import { useLoaderData } from 'react-router-dom';
 const Home = () => {
+  const { jobs, addedData } = useLoaderData();
+  console.log(jobs);
   return (
     <>
       <div className="lg:h-[calc(80vh-80px)] p-5 flex-col lg:flex-row flex justify-between items-center px-5 md:px-12 bg-slate-100">

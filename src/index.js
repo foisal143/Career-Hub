@@ -7,20 +7,22 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './components/Home/Home';
 import jobsLoader from './Loaders/Loaders';
 import JobDetails from './components/JobDetails/JobDetails';
+import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App></App>,
+    loader: jobsLoader,
     errorElement: <p>This is error page</p>,
-    loader: () => fetch('jobs.json'),
     children: [
       {
         path: '/',
         element: <Home></Home>,
+        loader: jobsLoader,
       },
       {
-        path: 'job/:jobId',
+        path: '/:jobId',
         element: <JobDetails></JobDetails>,
         loader: ({ params }) => params.jobId,
       },
@@ -30,7 +32,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'applied',
-        element: <p>This is Applied jobs</p>,
+        element: <AppliedJobs></AppliedJobs>,
       },
       {
         path: 'blog',

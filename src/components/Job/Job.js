@@ -3,7 +3,7 @@ import { MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/solid';
 import { Link } from 'react-router-dom';
 const Job = ({ job }) => {
   const { id, type, title, salary, location, img, company } = job;
-  console.log(id);
+
   return (
     <div>
       <img className="h-72 mb-5" src={img} alt="" />
@@ -26,7 +26,7 @@ const Job = ({ job }) => {
           <CurrencyDollarIcon className="w-5 h-5"></CurrencyDollarIcon> {salary}{' '}
         </p>
       </div>
-      <Link to={`/job/${id}`}>
+      <Link to={`/${id}`}>
         <button className="btn-primary">Vew Details</button>
       </Link>
     </div>
