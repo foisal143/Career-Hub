@@ -11,7 +11,7 @@ const Job = ({ job }) => {
       <p className="text-gray-500">{company}</p>
       <div className="flex my-2 items-center gap-8">
         <p className="px-6 rounded-md py-1 font-bold text-sky-500 border border-sky-500">
-          Remote
+          {type}
         </p>
         <p className="px-6 rounded-md py-1 font-bold text-sky-500 border border-sky-500">
           Full Time
