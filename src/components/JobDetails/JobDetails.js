@@ -11,6 +11,7 @@ import {
   MapPinIcon,
 } from '@heroicons/react/24/solid';
 import { addToDb } from '../../Utilities/uitilites';
+import toast from 'react-hot-toast';
 const JobDetails = () => {
   const productId = useLoaderData();
   const jobs = useContext(JobsContext);
@@ -34,6 +35,7 @@ const JobDetails = () => {
     const newJob = [...addedJob, job];
     setAddedJob(newJob);
     addToDb(id);
+    toast.success('job applied success');
   };
   return (
     <div>

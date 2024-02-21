@@ -1,8 +1,8 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import { Outlet, useLoaderData } from 'react-router-dom';
-import { createContext, useState, useEffect } from 'react';
-import { getLocalData } from './Utilities/uitilites';
+import { createContext, useState } from 'react';
+import { Toaster } from 'react-hot-toast';
 import Footer from './components/Footer/Footer';
 export const JobsContext = createContext([]);
 export const AddedJobContext = createContext([]);
@@ -21,6 +21,7 @@ function App() {
           </div>
           <Footer></Footer>
         </AddedJobContext.Provider>
+        <Toaster />
       </JobsContext.Provider>
     </>
   );
