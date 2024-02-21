@@ -6,7 +6,7 @@ const FeaturedJob = () => {
   const jobsData = useContext(JobsContext);
   const [limit, setLimit] = useState(6);
   const jobs = jobsData.slice(0, limit);
-  console.log(jobs);
+
   return (
     <div>
       <h3 className="text-4xl font-bold text-center">Featured Jobs</h3>

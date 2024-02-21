@@ -5,7 +5,7 @@ import FeaturedJob from '../FeaturedJob/FeaturedJob';
 import { Link, useLoaderData } from 'react-router-dom';
 const Home = () => {
   const { jobs, addedData } = useLoaderData();
-  console.log(jobs);
+  
   return (
     <>
       <div className="lg:h-[calc(80vh-80px)] p-5 flex-col lg:flex-row flex justify-between items-center px-5 md:px-12 bg-slate-100">
@@ -24,7 +24,7 @@ const Home = () => {
           </Link>
         </div>
         <div className="2/5">
-          <img className="w-full lg:h-[500px] mx-auto" src={person} alt="" />
+          <img className="w-full lg:h-[450px] mx-auto" src={person} alt="" />
         </div>
       </div>
       <section>
